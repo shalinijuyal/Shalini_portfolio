@@ -5,57 +5,124 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learning - Shalini Juyal</title>
     <style>
-        body {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            background-color: #0A192F;  /* Dark Blue Background */
-            color: #E0E7FF; /* Light Blueish White Text */
-            font-family: Arial, sans-serif;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 50px auto;
-            padding: 20px;
-            background: #2C3E50; /* Deep Blue Background */
-            border-radius: 15px;
-            box-shadow: 0 0 20px rgba(0, 110, 255, 0.2);
-        }
-        h1 {
-            text-align: center;
-            color: #F1C40F; /* Sky Blue */
-            margin-bottom: 20px;
-        }
-        .lecture {
-            background: #233554; /* Medium Dark Blue */
-            padding: 20px;
-            margin-bottom: 15px;
-            border-left: 5px solid #64B6F7; /* Accent Blue */
-            border-radius: 10px;
-        }
-        .lecture h2 {
-            color: #64B6F7;
-            margin-bottom: 10px;
-        }
-        .video-container {
-            text-align: center;
-            margin-top: 15px;
-        }
-        .resume-container a {
-            display: inline-block;
-            background: #64B6F7;
-            color: #0A192F;
-            padding: 8px 15px;
-            border-radius: 5px;
-            text-decoration: none;
-            font-weight: bold;
-            margin-top: 10px;
-            transition: background 0.3s;
-        }
-        .resume-container a:hover {
-            background: #A0CFFF; /* Lighter Blue */
-            color: #0A192F;
-        }
+                /* General Reset */
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #102A43;  /* Deep Blue */
+    color: #EAEAEA; /* Soft White */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Container Box */
+.container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #1C3D5A; /* Medium Dark Blue */
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 200, 87, 0.3); /* Subtle Gold Glow */
+}
+
+/* Heading with Image */
+.heading-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.heading-container h1 {
+    text-align: center;
+    color: #F6AE2D; /* Gold */
+    font-size: 36px;
+    text-shadow: 0 0 10px #F6AE2D;
+}
+
+/* Image beside Heading */
+.heading-container img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #F6AE2D; /* Golden Glow */
+}
+
+/* Lecture Boxes */
+.lecture {
+    background: #1B2845; /* Dark Navy Blue */
+    padding: 20px;
+    margin-bottom: 15px;
+    border-left: 5px solid #FFD700; /* Gold Accent */
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.lecture:hover {
+    transform: scale(1.02);
+}
+
+/* Lecture Headings */
+.lecture h2 {
+    color: #F6AE2D; /* Gold */
+    margin-bottom: 10px;
+    text-shadow: 0 0 5px rgba(246, 174, 45, 0.6);
+}
+
+/* Video Containers */
+.video-container {
+    text-align: center;
+    margin-top: 15px;
+}
+
+video {
+    max-width: 100%;
+    border-radius: 10px;
+    border: 2px solid #F6AE2D;
+}
+
+/* Resume Download Buttons */
+.resume-container {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.resume-container a {
+    display: inline-block;
+    background: #F6AE2D;
+    color: #102A43;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 5px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.resume-container a:hover {
+    background: #FFD700; /* Brighter Gold */
+    transform: scale(1.05);
+}
+
+/* Assignment Text */
+.lecture p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Learning Takeaways */
+.lecture h4 {
+    color: #F6AE2D;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
     </style>
 </head>
 <body>
