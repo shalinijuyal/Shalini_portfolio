@@ -31,13 +31,19 @@
                 <div class="home-sci">
                     <a href="https://www.linkedin.com/in/shalini-juyal/"><i class="fa-brands fa-linkedin"></i></a>
                     <a href="https://github.com//shalinijuyal"><i class="fa-brands fa-github"></i></a>
-                    <a href="https://www.instagram.com/juyal_shalini/"><i class="fa-brands fa-instagram"></i></a>
+                    <a onclick="sendEmail()"><i class="fa-solid fa-envelope"></i></a>
                 </div>
             </div>
             <div class="rightSection">
                 <img src="dp.png" alt="Shalini Juyal">
             </div>
         </section>
+        <script>
+            function sendEmail(){
+                const email="shalinijuyal3@gmail.com";
+                window.open(`https://mail.google.com/mail/?view=cm&fs=1&to=${email}`,"_blank");
+            }
+        </script>
 
         <hr id="about">
 
